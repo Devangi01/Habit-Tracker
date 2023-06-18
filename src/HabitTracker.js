@@ -36,7 +36,7 @@ const HabitTracker = () => {
     <div>
       <h1>Habit Tracker</h1>
       <HabitForm addHabit={addHabit} />
-      <HabitList habits={habits} removeHabit={removeHabit} archiveHabit={archiveHabit} EditHabit={EditHabit}/>
+      <HabitList habits={habits} removeHabit={removeHabit} archiveHabit={archiveHabit} editHabit={editHabit}/>
       <Routes>
         <Route path="/archive" element={<ArchivedPage archivedHabits={archivedHabits} />} />
       </Routes>
